@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: linear-gradient(to bottom, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%);
+  background: linear-gradient(to top, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%);
 }
 
 p {
@@ -23,7 +23,7 @@ p {
   height: 100%;
   text-align: center;
   margin: 4% auto;
-  text-shadow: 0 2px 8px rgba(158, 143, 32, 0.77), 0 2px 0 rgba(151, 136, 47, 0.24);
+  text-shadow: 0 2px 8px rgba(108, 103, 32, 0.77), 0 2px 0 rgba(101, 106, 47, 0.24);
   transition: all 0.2s ease;
 }
 
@@ -35,6 +35,18 @@ p {
   position: relative;
   color: rgba(255, 255, 255, 0.8);
 }
+
+.action {
+  color: rgba(255, 205, 255, 0.8);
+}  
+
+.things {
+  color: rgba(205, 205, 255, 0.8);
+}  
+
+.goals {
+  color: rgba(205, 255, 205, 0.8);
+}  
 
 .genre:hover,.action:hover,.things:hover,.goals:hover {
   text-shadow: 0 4px 4px rgba(255, 255, 255, 0.2), 0 6px 6px rgba(255, 255, 255, 0.4), 0 8px 18px rgba(255, 255, 255, 0.8), 0 22px 18px rgba(255, 255, 255, 0.5), 0 -4px 4px rgba(255, 255, 255, 0.2), 0 -6px 6px rgba(255, 255, 255, 0.4), 0 -8px 18px rgba(255, 255, 255, 0.8), 0 -22px 18px rgba(255, 255, 255, 0.5);

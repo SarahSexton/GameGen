@@ -17,7 +17,7 @@ $('.genre').hover(function() {
   clearInterval(YesGenre);
 });
 
-var action = ['go to war with','wage war on','unite','lead','build','destroy','conquer','invade','colonize','discover','explore','trade with','bomb','nuke','lead the rebels in','make peace with','investigate','rename','collect gold from','collect crystals from','mine ore from','align','click on','match','throw','toss','fire pellets at','control','touch','stack','guess','memorize','rotate','swap','slide','avoid','drag and drop','tickle','race','challenge','collect','draw','unlock','cook','break','solve puzzles involving','collect','juggle'],
+var action = ['go to war with','wage war on','unite','lead','build','destroy','conquer','invade','colonize','discover','explore','trade with','lead the rebels in','make peace with','investigate','rename','collect gold from','collect crystals from','mine ore from','align','click on','match','throw','toss','fire pellets at','control','touch','stack','guess','memorize','rotate','swap','slide','avoid','drag and drop','tickle','race','challenge','collect','draw','unlock','cook','break','solve puzzles involving','collect','juggle'],
   allActions = action.length,
   firstAction = 0,
   changeA = $('.action'),

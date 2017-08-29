@@ -1,14 +1,14 @@
 html {
   height: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Chelsea Market', sans-serif;
 }
 
 body {
-  background: linear-gradient(to bottom, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%);
+  background: linear-gradient(to top, #ffffff 0%, #e0dd86 25%, #c4ad77 50%, #b38fb5 75%, #a7cae5 100%);
 }
 
 p {
-  color: rgba(114, 123, 141, 0.6);
+  color: rgba(50, 60, 60, 0.6);
   font-weight: 400;
   font-size: 10px;
   text-align: center;
@@ -17,13 +17,12 @@ p {
 }
 
 #box {
-  font-size: 3.4em;
+  font-size: 3.3em;
   letter-spacing: -0.045em;
   color: #FFF;
-  height: 100%;
   text-align: center;
-  margin: 4% auto;
-  text-shadow: 0 2px 8px rgba(158, 143, 32, 0.77), 0 2px 0 rgba(151, 136, 47, 0.24);
+  margin: 0 10px;
+  text-shadow: 0 3px 4px rgba(100, 100, 35, 0.97), 0 2px 0 rgba(50, 50, 25, 0.7);
   transition: all 0.2s ease;
 }
 
@@ -33,8 +32,20 @@ p {
   transition: all 0.2s ease;
   display: inline-block;
   position: relative;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.6);
 }
+
+.action {
+  color: rgba(255, 205, 255, 0.95);
+}  
+
+.things {
+  color: rgba(160, 210, 255, 0.9);
+}  
+
+.goals {
+  color: rgba(105, 255, 205, 0.8);
+}  
 
 .genre:hover,.action:hover,.things:hover,.goals:hover {
   text-shadow: 0 4px 4px rgba(255, 255, 255, 0.2), 0 6px 6px rgba(255, 255, 255, 0.4), 0 8px 18px rgba(255, 255, 255, 0.8), 0 22px 18px rgba(255, 255, 255, 0.5), 0 -4px 4px rgba(255, 255, 255, 0.2), 0 -6px 6px rgba(255, 255, 255, 0.4), 0 -8px 18px rgba(255, 255, 255, 0.8), 0 -22px 18px rgba(255, 255, 255, 0.5);
